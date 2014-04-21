@@ -1,3 +1,5 @@
+$(document).ready(){
+
 function Sleep(hours){
 	this.hours = (hours) * 10;
 }

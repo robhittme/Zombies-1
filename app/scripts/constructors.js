@@ -1,5 +1,6 @@
 function Sleep(hours){
 	this.hours = (hours) * 10;
+	this.life = this.hours;
 }
 function Classroom(difficulty){
 	this.difficulty = function(){

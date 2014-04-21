@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 $(".btn").click(function(e) {
 	e.preventDefault();
 	console.log("im working");
@@ -16,3 +18,4 @@ console.log(varClassroom.life);
 $(".results").append("<li>" + varLife + "</li>");
 });
 
+});

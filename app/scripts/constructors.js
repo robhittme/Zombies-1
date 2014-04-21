@@ -1,4 +1,3 @@
-$(document).ready(){
 
 function Sleep(hours){
 	this.hours = (hours) * 10;
@@ -9,8 +8,7 @@ function Classroom(difficulty){
 		if(difficulty === 'easy'){
 			this.life = (this.life) - 20;
 		return this.life;
-	}
-
+		}
 		if(difficulty === 'intermediate'){
 			this.life = (this.life) - 40;
 			return this.life;

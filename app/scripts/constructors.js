@@ -1,27 +1,4 @@
 
-// function Sleep(hours){
-// 	this.hours = (hours) * 10;
-// 	this.life = this.hours;
-// }
-// function Classroom(){
-// 	this.difficulty = function(difficulty,sleepInstance) {
-// 		if(difficulty === "easy"){
-// 			this.sleepInstance = sleepInstance.life - 20;
-// 	}
-// 		if(difficulty === 'intermediate') {
-// 			this.sleepInstance = sleepInstance.life - 40;	
-// 		}
-// 		if(difficulty === 'hard'){
-// 			this.sleepInstance = sleepInstance.life - 60;
-// 		}
-
-// }
-// }
-
-// function Coffee(cups) {
-// 	this.cups = (cups) * 5;
-// 	this.life = this.cups;
-// }
 
 function Sleep(hours){
 	this.hours = (hours) * 10;

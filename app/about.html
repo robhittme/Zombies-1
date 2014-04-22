@@ -25,6 +25,22 @@
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <script type="template/html" id="aboutInfo">
+        	<% _.each(aboutData,function(element,index,list){ %>
+            <h4><img style="width:50px;" src="<%= element.photo %>"> <%= element.title %></h4>
+
+            <ul class="list-unstyled">
+                <li><%= element.name %></li>
+                <li><%= element.hometown %></li>
+                <li><%= element.nickname %></li>
+
+            </ul>
+        <% }); %>
+
+
+
+        </script>
+
 
 
         <div class="container">
@@ -115,7 +131,7 @@
         <!-- endbuild -->
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
-        
+        <script src="scripts/data.js"></script>
         <script src="scripts/main.js"></script>
         <script src="scripts/constructors.js"></script>
         <!-- endbuild -->

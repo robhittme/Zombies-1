@@ -1,4 +1,3 @@
-
 $(".btn").click(function(e) {
 	e.preventDefault();
 	console.log("im working");
@@ -12,11 +11,16 @@ $(".btn").click(function(e) {
 	console.log(varSleep.life);
 var varLife=(varCoffee.life + varSleep.life);
 
+
+
  
 
  
 var varLife=(varCoffee.life + varSleep.life);
 console.log(varCoffee.life);
 console.log(varClassroom.life);
+$(".results").children().remove();
 $(".results").append("<li>" + varLife + "</li>");
+
+});
 

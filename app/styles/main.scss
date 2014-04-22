@@ -3,11 +3,12 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 // bower:scss
 @import '../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
 // endbower
-
+body{
+	background-image:
+	url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtZLESM9u5PNMR4pSSjmTHgltj9_eiuX3hpXbN5u4kf0dDxPTH);    
+}
 .container{
-    background-image: url()
+    background: black;
 
 }
-header{
 
-}

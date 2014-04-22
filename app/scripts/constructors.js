@@ -6,19 +6,23 @@ function Sleep(hours){
 function Classroom(difficulty){
 	this.difficulty = function(){
 		if(difficulty === 'easy'){
+<<<<<<< HEAD
 			this.life = (this.life) - 20;
 		return this.life;
 		}
+=======
+			this.life = this.life - 20;
+	}
+
+>>>>>>> upstream/master
 		if(difficulty === 'intermediate'){
-			this.life = (this.life) - 40;
-			return this.life;
+			this.life = this.life - 40;	
 		}
 		if(difficulty === 'hard'){
-			this.life = (this.life) - 60;
-			return this.life;
+			this.life = this.life - 60;	
 		}
 	}
-	
+	this.life= difficulty;
 }
 
 

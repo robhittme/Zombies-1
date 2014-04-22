@@ -2,9 +2,9 @@ var aboutData= [
 	{
 		photo:
 		name: Chelsie;
-		title:
-		hometown:
-		nickname:
+		title: Programmer;
+		hometown: San Diego;
+		nickname: Sunshine;
 
 	},
 	{

@@ -1,6 +1,6 @@
 var aboutData= [ 
 	{
-		"photo":"",
+		"photo":"https://scontent-b.xx.fbcdn.net/hphotos-frc3/t1.0-9/376663_10150451842794789_676954083_n.jpg",
 		"name": "Chelsie",
 		"title": "Programmer",		
 		"hometown": "San Diego",

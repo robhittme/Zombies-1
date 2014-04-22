@@ -20,3 +20,10 @@ $(".results").append("<li>" + varLife + "</li>");
 
 });
 
+var aboutTemplate = _.template ($('#aboutInfo').html(),(aboutData);
+				$('.jumbotron').append(aboutTemplate);
+}
+
+
+
+

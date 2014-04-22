@@ -1,4 +1,3 @@
-
 // $(".btn").click(function(e) {
 // 	e.preventDefault();
 // 	console.log("im working");
@@ -19,6 +18,7 @@
 // $(".results").append("<li>" + varLife + "</li>");
 // });
 
+
 $(".btn").click(function(e) {
 	e.preventDefault();
 	console.log("im working");
@@ -32,10 +32,11 @@ $(".btn").click(function(e) {
 	varClassroom.difficulty(difficulty, varSleep);
 	console.log(varSleep.life);
  
+
  
 var varLife=(varCoffee.life + varSleep.life + varClassroom.life);
 console.log(varSleep.life);
 console.log(varCoffee.life);
 console.log(varClassroom.life);
 $(".results").append("<li>" + varLife + "</li>");
-});
+

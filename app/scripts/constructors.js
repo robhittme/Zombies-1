@@ -4,6 +4,7 @@ function Sleep(hours){
 	this.hours = (hours) * 10;
 	this.life = this.hours;
 }
+
 function Classroom(){
 	this.difficulty = function(difficulty, sleepInstance){
 		if(difficulty === 'easy'){

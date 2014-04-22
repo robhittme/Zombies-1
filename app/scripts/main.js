@@ -11,8 +11,12 @@ $(".btn").click(function(e) {
 	varClassroom.difficulty(difficulty, varSleep);
 	console.log(varSleep.life);
 var varLife=(varCoffee.life + varSleep.life);
-console.log(varSleep.life);
+
+ 
+
+ 
+var varLife=(varCoffee.life + varSleep.life);
 console.log(varCoffee.life);
 console.log(varClassroom.life);
 $(".results").append("<li>" + varLife + "</li>");
-});
+

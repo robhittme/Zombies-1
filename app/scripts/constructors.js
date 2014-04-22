@@ -1,25 +1,48 @@
 
+// function Sleep(hours){
+// 	this.hours = (hours) * 10;
+// 	this.life = this.hours;
+// }
+// function Classroom(){
+// 	this.difficulty = function(difficulty,sleepInstance) {
+// 		if(difficulty === "easy"){
+// 			this.sleepInstance = sleepInstance.life - 20;
+// 	}
+// 		if(difficulty === 'intermediate') {
+// 			this.sleepInstance = sleepInstance.life - 40;	
+// 		}
+// 		if(difficulty === 'hard'){
+// 			this.sleepInstance = sleepInstance.life - 60;
+// 		}
+
+// }
+// }
+
+// function Coffee(cups) {
+// 	this.cups = (cups) * 5;
+// 	this.life = this.cups;
+// }
+
 function Sleep(hours){
 	this.hours = (hours) * 10;
 	this.life = this.hours;
 }
-function Classroom(difficulty){
-	this.difficulty = function(){
+function Classroom(){
+	this.difficulty = function(difficulty, sleepInstance){
 		if(difficulty === 'easy'){
-			this.life = this.life - 20;
+			sleepInstance.life = sleepInstance.life - 20;
 	}
-
+ 
 		if(difficulty === 'intermediate'){
-			this.life = this.life - 40;	
+			sleepInstance.life = sleepInstance.life - 40;	
 		}
 		if(difficulty === 'hard'){
-			this.life = this.life - 60;	
+			sleepInstance.life = sleepInstance.life - 60;	
 		}
 	}
-	this.life= difficulty;
 }
-
-
+ 
+ 
 function Coffee(cups) {
 	this.cups = (cups) * 5;
 	this.life = this.cups;

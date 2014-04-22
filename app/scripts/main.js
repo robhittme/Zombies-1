@@ -1,3 +1,4 @@
+$(document).ready(function() {
 $(".btn").click(function(e) {
 	e.preventDefault();
 	console.log("im working");
@@ -17,6 +18,8 @@ console.log(varCoffee.life);
 console.log(varClassroom.life);
 $(".results").children().remove();
 $(".results").append("<li>" + varLife + "</li>");
+
+});
 
 });
 

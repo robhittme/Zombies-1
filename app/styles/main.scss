@@ -9,11 +9,30 @@ body{
 }
 .container{
     background: black;
+}
 
+.jumbotron {
+	height: 550px;
+}
+
+.col-md-8 {
+	inline: block;
+	margin: 0;
+	vertical-align: left;
+	width: 500px;
+	font-family: "Oswald", sans-serif;
+}
+
+.col-md-4 {
+	inline: block;
+	width: 350px;
+	font-size: 8px;
+	font-family: "Oswald", sans-serif;
 }
 
 .results {
 	list-style-type: none;
+	font-family: "Oswald", sans-serif;
 	text-color: black;
 	font-size: 45px;
 	background: white;

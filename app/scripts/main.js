@@ -7,11 +7,11 @@ $(".btn").click(function(e) {
 	var varSleep = new Sleep(hours);
 	var cups = Number($(".coffeeSelect").val());
 	var varCoffee= new Coffee(cups);
-	var difficulty = $(".classroomSelect").val();
+	var difficulty = Number($(".classroomSelect").val());
 	var varClassroom = new Classroom(difficulty);
 
  
-var varLife =(varSleep.life + varCoffee.life + varClassroom.life) 
+var varLife = (varSleep.life + varCoffee.life + varClassroom.life);
 console.log(varSleep.life);
 console.log(varCoffee.life);
 console.log(varClassroom.life);

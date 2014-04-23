@@ -12,12 +12,20 @@ body{
 
 }
 
-.col-md-6{
-	background: grey;
+.columnsContainer{
+	background: rgba(226, 226, 226, 0.85);
 	border-radius: 10px;
+	border: 2px solid black;
+	padding: 10px;
+	
+	margin: 0 auto;
+	p{ 
+		padding: 40px;
+		font-size: 20px;
+	}
 }
-.col-md-6, .jumbotron{
-	clear:both;
+.alert{
+	font-size: 20px;
 }
 
 .results {
@@ -31,26 +39,24 @@ body{
 	border-radius: 10px;
 	margin: auto;
 	border: 2px solid black;
-}
+	padding-bottom: 30px;
+	margin-bottom: 186px;
 
+
+}
 .jumbotron {
 	text-align: center;
 	font-family: "Oswald", sans-serif;
-<<<<<<< HEAD
     background: rgba(113, 113, 113, 0.0);
 	
 }
 
-.sleepcontainer {
-	border: 3px solid red;
+.jumbotron img {
+	width: 800px;
+	height: 500px;
+	border-radius: 20px;
 }
 
-
-=======
-	border: 3px solid black;
-}
-
->>>>>>> 8a5cd60561010dcac1318dbda4f075f33ff56b0d
  ul>.nav .nav-pills, .pull-right  li a {
 	color: black;
 	font-size: 20px;

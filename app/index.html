@@ -9,6 +9,8 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <!-- build:css styles/vendor.css -->
         <!-- bower:css -->
+        <link rel="stylesheet" href="styles/main.css">
+
         <!-- endbower -->
         <!-- endbuild -->
         <!-- build:css(.tmp) styles/main.css -->
@@ -21,11 +23,7 @@
 
     </head>
     <body>
-        <!--[if lt IE 10]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-
+     
         <div class="container">
             <div class="header">
                 <header>
@@ -40,10 +38,13 @@
             <div class="jumbotron">
                 <img src="images/photo.JPG">
             </div>
-           <div class="col-md-6">    
-            <h1>Homework Readiness</h1>
-                <p>Select the following based on your current state.  Then press the button Calculate below to configure your score. The score shows your alertness out of 100. Figure out what could help you perform</p>
-                <p class="lead">How alert will you be for homework?</p> 
+        
+        </div>
+
+<div class="container">
+    <div class="row ">
+           <div class="col-lg-6 col-md-6 columnsContainer">    
+             <h1>Homework Readiness</h1>
                <h3>Number of Hours of Sleep</h3>
                  <select class="sleepSelect">
                     
@@ -102,12 +103,18 @@
 
                 <p><br><a class="btn btn-lg btn-info" href="#">Calculate! <span class="glyphicon glyphicon-ok"></span></a></p>
             </div>
-        
-            <div>
+            
+            <div class= "col-lg-6 col-md-6 columnsContainer">
+                <p>Select the following based on your current state.  Then press the button Calculate below to configure your score. The score shows your alertness out of 100. Figure out what could help you perform</p>
+                <p class="lead">How alert will you be for homework?</p>
+                <h4>SCORE:</h4>
+                <ul class="alert">
+                </ul> 
                 <ul class= "results">
                 </ul>
+                
             </div>
-
+</div>
             <div class="footer">
                 <p><span class="glyphicon glyphicon-check"></span> from Team Zombie</p>
             </div>
@@ -121,15 +128,7 @@
         <!-- endbower -->
         <!-- endbuild -->
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
+      
 
         <!-- build:js scripts/plugins.js -->
         <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/affix.js"></script>
@@ -147,7 +146,6 @@
         <!-- endbuild -->
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
-        
         <script src="scripts/main.js"></script>
         <script src="scripts/constructors.js"></script>
         <!-- endbuild -->

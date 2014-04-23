@@ -33,12 +33,12 @@ console.log(varSnacks.life);
 $(".results").children().remove();
 $(".results").append("<li>" + varLife + "</li>");
 	if (varLife <= 30) {
-		alert("Your alertness is low, you should get some sleep, get food, or a drink!");
+		$(".alert").text("Your alertness is low, you should get some sleep, get food, or a drink!");
 	}
 
 });
 
-var aboutTemplate = _.template ($('#aboutInfo').html(),(aboutData));
+var aboutTemplate = _.template ($('#aboutInfo').html(),aboutData);
 				$('.jumbotron').append(aboutTemplate);
 
 });

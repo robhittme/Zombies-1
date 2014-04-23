@@ -1,23 +1,37 @@
 
 function Sleep(hours){
-	this.hours = (hours) * 10;
+	this.hours = (hours) * 15;
 	this.life = this.hours;
 }
 
 function Classroom(){
 	this.difficulty = function(difficulty, sleepInstance){
 		if(difficulty === 'easy'){
-			sleepInstance.life = sleepInstance.life - 20;
+			sleepInstance.life = sleepInstance.life - 10;
 	}
  
 		if(difficulty === 'intermediate'){
-			sleepInstance.life = sleepInstance.life - 40;	
+			sleepInstance.life = sleepInstance.life - 20;	
 		}
 		if(difficulty === 'hard'){
-			sleepInstance.life = sleepInstance.life - 60;	
+			sleepInstance.life = sleepInstance.life - 30;	
 		}
 	}
 }
+function AssignmentDifficulty(){
+	this.levelOfToughness = function(levelOfToughness, sleepInstance){
+		if(levelOfToughness === 'easy'){
+			sleepInstance.life = sleepInstance.life -15;
+		}
+		if(levelOfToughness === 'intermediate'){
+			sleepInstance.life = sleepInstance.life -30;
+		}
+		if(levelOfToughness === 'hard'){
+			sleepInstance.life = sleepInstance.life -45;
+		}
+	}
+}
+
  
  
 function Coffee(cups) {

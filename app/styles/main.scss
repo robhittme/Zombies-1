@@ -12,6 +12,14 @@ body{
 
 }
 
+.col-md-6{
+	background: grey;
+	border-radius: 10px;
+}
+.col-md-6, .jumbotron{
+	clear:both;
+}
+
 .results {
 	list-style-type: none;
 	font-family: "Oswald", sans-serif;
@@ -28,31 +36,12 @@ body{
 .jumbotron {
 	text-align: center;
 	font-family: "Oswald", sans-serif;
-	border: 3px solid black;
-}
-
-.jumbotron img{
- 	height: 90px;
- 	width:90px;
- 	background-size: cover;
- 	border-radius: 100px;
- 	-webkit-border-radius: 100px;
- 	-moz-border-radius: 100px;
- 	-webkit-transition: 0.5s ease;
-    -moz-transition: 0.5s ease;
-    -o-transition: 0.5s ease;
-    transition: 0.5s ease;
-
-
+    background: rgba(113, 113, 113, 0.0);
 	
 }
+
 .sleepcontainer {
 	border: 3px solid red;
-}
-
-.jumbotron img:hover {
-	height: 150px;
-	width: 150px;
 }
 
 

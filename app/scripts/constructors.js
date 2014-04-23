@@ -24,3 +24,13 @@ function Coffee(cups) {
 	this.cups = (cups) * 5;
 	this.life = this.cups;
 }
+
+function Energydrink(cans) {
+	this.cans = (cans) * 5;
+	this.life = this.cans;
+}
+
+function Snacks(amount) {
+	this.amount = (amount) * 3;
+	this.life = this.amount;
+}

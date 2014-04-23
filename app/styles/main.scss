@@ -5,10 +5,11 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 // endbower
 body{
 	background-image:
-	url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtZLESM9u5PNMR4pSSjmTHgltj9_eiuX3hpXbN5u4kf0dDxPTH);    
+	url(http://img.wallpaperlist.com/uploads/wallpaper/files/woo/wood-surface-wallpaper-533ee95ec9222.jpg);    
 }
 .container{
-    background: black;
+    background: rgba(113, 113, 113, 0.0);
+
 }
 
 .results {
@@ -21,11 +22,12 @@ body{
 	height: 75px;
 	border-radius: 10px;
 	margin: auto;
+	border: 2px solid black;
 }
 
 .jumbotron {
 	text-align: center;
-	
+	border: 3px solid black;
 }
 .jumbotron img{
  
@@ -40,4 +42,11 @@ body{
 	
 }
 
+ ul>.nav .nav-pills, .pull-right  li a {
+	color: black;
+	font-size: 20px;
+}
 
+.text-muted {
+	color: black;
+}

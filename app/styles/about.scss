@@ -13,8 +13,17 @@
 
 	
 }
+.jumbotron {
+	background-color: rgba(209, 209, 209, 0.7);
+	border: 1px solid black;
+}
 
 .jumbotron img:hover {
 	height: 150px;
 	width: 150px;
+	border: 2px solid black;
+}
+
+body {
+	background-image: url(http://s3.amazonaws.com/placester-wordpress/blogs.dir/6189/files/2013/11/Bridge-at-shem-creek-071347.jpg);
 }

@@ -12,6 +12,22 @@ body{
 
 }
 
+.columnsContainer{
+	background: rgba(226, 226, 226, 0.85);
+	border-radius: 10px;
+	border: 2px solid black;
+	padding: 10px;
+	
+	margin: 0 auto;
+	p{ 
+		padding: 40px;
+		font-size: 20px;
+	}
+}
+.alert{
+	font-size: 20px;
+}
+
 .results {
 	list-style-type: none;
 	font-family: "Oswald", sans-serif;
@@ -23,12 +39,22 @@ body{
 	border-radius: 10px;
 	margin: auto;
 	border: 2px solid black;
-}
+	padding-bottom: 30px;
+	margin-bottom: 186px;
 
+
+}
 .jumbotron {
 	text-align: center;
 	font-family: "Oswald", sans-serif;
-	border: 3px solid black;
+    background: rgba(113, 113, 113, 0.0);
+	
+}
+
+.jumbotron img {
+	width: 800px;
+	height: 500px;
+	border-radius: 20px;
 }
 
  ul>.nav .nav-pills, .pull-right  li a {

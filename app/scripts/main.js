@@ -20,6 +20,11 @@ $(".btn").click(function(e) {
 	varClassroom.difficulty(difficulty, varSleep);
 	console.log(varSleep.life);
 
+	var levelOfToughness = $(".assignmentSelect").val();
+	var varAssignment = new AssignmentDifficulty()
+	varAssignment.levelOfToughness(levelOfToughness, varSleep);
+	console.log(varSleep.life)
+
 var varLife=(varCoffee.life + varSleep.life + varEnergyDrink.life + varSnacks.life);
 console.log(varCoffee.life);
 console.log(varClassroom.life);

@@ -31,31 +31,6 @@ body{
 	border: 3px solid black;
 }
 
-.jumbotron img{
- 	height: 90px;
- 	width:90px;
- 	background-size: cover;
- 	border-radius: 100px;
- 	-webkit-border-radius: 100px;
- 	-moz-border-radius: 100px;
- 	-webkit-transition: 0.5s ease;
-    -moz-transition: 0.5s ease;
-    -o-transition: 0.5s ease;
-    transition: 0.5s ease;
-
-
-	
-}
-.sleepcontainer {
-	border: 3px solid red;
-}
-
-.jumbotron img:hover {
-	height: 150px;
-	width: 150px;
-}
-
-
  ul>.nav .nav-pills, .pull-right  li a {
 	color: black;
 	font-size: 20px;

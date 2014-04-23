@@ -1,4 +1,4 @@
-.jumbotron img{
+.jumbotron .aboutImg{
  	height: 90px;
  	width:90px;
  	background-size: cover;
@@ -22,6 +22,10 @@
 	height: 150px;
 	width: 150px;
 	border: 2px solid black;
+}
+
+.jumbotron div {
+	position: relative;
 }
 
 body {

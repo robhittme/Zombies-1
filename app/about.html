@@ -24,14 +24,12 @@
         <script type="template/html" id="aboutInfo">
         	<% _.each(aboutData,function(element,index,list){ %>
             <div>
-            <h4><img class="aboutImg" src="<%= element.photo %>"> <%= element.title %></h4>
+            <h4><img class="aboutPic"src="<%= element.photo %>"> <%= element.title %></h4>
 
             <ul class="list-unstyled">
                 <li><%= element.name %></li>
                 <li><%= element.hometown %></li>
-                <a href="<%= element.twitterhandle %>"><img src="<%= element.twitter %>" ></a>
-                
-
+                <a href="<%= element.twitterhandle %>"><img class= "twitPic" src="<%= element.twitter %>" ></a>
             </ul>
             </div>
         <% }); %>

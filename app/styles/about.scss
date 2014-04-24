@@ -11,13 +11,21 @@
 	}
 }
 
-.col-lg-7 {
+.col-lg-7  {
 	background: rgba(226, 226, 226, 0.85);
 	border-radius: 10px;
 	border: 2px solid black;
 	padding: 10px;
 	height: 613px;
 	margin: 0 auto;
+}
+.col-lg-7 img{
+	margin:65px;
+	padding:10px;
+	height:400px;
+	width:400px;
+	border-radius:25px;
+
 }
 
 .ironyard {

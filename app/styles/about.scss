@@ -1,12 +1,39 @@
-.jumbotron .twitPic {
+.col-lg-5 {
+	background: rgba(226, 226, 226, 0.85);
+	border-radius: 10px;
+	border: 2px solid black;
+	padding: 10px;
+	margin: 0 auto;
+
+	div {
+		width: 50%;
+		margin: auto;
+	}
+}
+
+.col-lg-7 {
+	background: rgba(226, 226, 226, 0.85);
+	border-radius: 10px;
+	border: 2px solid black;
+	padding: 10px;
+	height: 613px;
+	margin: 0 auto;
+}
+
+.ironyard {
+	height: 75%;
+	width: 75%;
+	margin: auto;
+}
+
+.col-lg-5 .twitPic {
 	margin: 10px;
 	height: 25px;
 	width: 25px;
 	border-radius: 100%;
 }
 
-
-.jumbotron .aboutPic{
+.col-lg-5 .aboutPic{
  	height: 90px;
  	width:90px;
  	background-size: cover;
@@ -24,7 +51,7 @@
 	border: 1px solid black;
 }
 
-.jumbotron .aboutPic:hover {
+.col-lg-5 .aboutPic:hover {
 	height: 150px;
 	width: 150px;
 	border: 2px solid black;

@@ -15,7 +15,7 @@ $(".btn").click(function(e) {
 	var varSnacks = new Snacks(amount);
 
 	var difficulty = $(".classroomSelect").val();
-	var varClassroom = new Classroom() 
+	var varClassroom = new Classroom(); 
 
 	varClassroom.difficulty(difficulty, varSleep);
 	console.log(varSleep.life);

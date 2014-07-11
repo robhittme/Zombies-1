@@ -5195,7 +5195,7 @@ button.close {
   .hidden-print {
     display: none !important; } }
 body {
-  background-image: url(http://img.wallpaperlist.com/uploads/wallpaper/files/woo/wood-surface-wallpaper-533ee95ec9222.jpg); }
+  background-color: #d3d3d3; }
 
 .container {
   background: rgba(113, 113, 113, 0); }
